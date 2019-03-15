@@ -1,0 +1,41 @@
+img {
+	width: 400px;
+	height: 400px;
+}
+h1 {
+    text-align: center;
+    margin: 25px;
+    padding-left: 30px;
+}
+.img {
+	
+	background-image: url("scope1.png");
+	height: 1500px;
+	width: 1500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.c1{
+	display:inline;
+	margin:300px;
+}
+.c2 {
+	display:inline;
+	margin:140px;
+}
+.c3{
+	display:inline;
+	margin:300px;
+}
+.c4{
+	display:inline;
+	margin:140px;
+}
+#space{
+	height:185px;
+}
+#space2{
+	height:25px;
+}
