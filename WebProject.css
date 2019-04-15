@@ -9,6 +9,19 @@ h1 {
     padding-left: 30px;
 }
 
+a {
+    text-decoration: none;
+}
+
+    a:visited {
+        color: mediumorchid;
+    }
+
+*::selection {
+    background-color: red;
+}
+
+
 .img {
     background-image: url("scope1.png");
     height: 1500px;
@@ -52,6 +65,9 @@ h1 {
     height: 200px;
 }
 
+/*h2 {
+    max-height: 100px;
+}*/
 
 #parent{
     display: flex;
@@ -64,12 +80,21 @@ h1 {
     text-align:center;
 }
 
-#bloc1, #bloc2 {
+.block{
     width: 200px;
 }
 .inner {
-    margin-left: 80px
-}
-#text{
+    margin-left: 80px;
     display:none;
+}
+.text1{
+    display:none;
+}
+.subtitle{
+    display:none;
+}
+#home-button{
+    position:fixed;
+    top:35px;
+    right:35px;
 }

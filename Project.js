@@ -1,10 +1,13 @@
-function changeTextDisplay(elementId) {
-	var textDiv = document.getElementById(elementId);
-	if (textDiv.style.display == 'block') {
-		textDiv.style.display = 'none';
-	}
-	else {
-		textDiv.style.display = 'block';
-	}
+function changeTextDisplay(elementClass) {
+    var elements = document.getElementsByClassName(elementClass);
+    for (let i = 0; i < elements.length; i++) {
+        if (elements[i].style.display == 'block') {
+            elements[i].style.display = 'none';
+        }
+        else {
+            elements[i].style.display = 'block';
+        }
+    }
+	
 
 }
